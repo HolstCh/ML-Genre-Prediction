@@ -1,7 +1,7 @@
 ## Predicting a Song's Genre Using ML Models and Sentiment Analysis
 
 Our project used Spark and various ML models to predict whether a song is pop or rap (binary classification). This notebook utilizes sentiment analysis (AFINN) to facilitate training each model.
-The model types we evaluated are Logistic Regression, Decision Tree, Random Forest and Gradient Boosted Trees(GBT). We evaluated each model using accuracy, precision, recall, fscore, and AUC-ROC.
+The model types we evaluated are Logistic Regression, Decision Tree, Random Forest and Gradient Boosted Trees (GBT). We evaluated each model using accuracy, precision, recall, fscore, and AUC-ROC metrics.
 Through comparing each metric, we determined that Random Forest was our best performing model. We used the following ML pipeline:
 
 #### 1. Data Collection: Gather relevant data for predicting a song's genre
